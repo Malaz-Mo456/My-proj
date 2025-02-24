@@ -1,0 +1,150 @@
+/* :root {
+    --maincolor: red;
+}
+
+div {
+    background-image: linear-gradient(to right, red, green);
+    width: 800px;
+    height: 300px;
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 28px;
+}
+
+title,
+head,
+link,
+style {
+    display: none;
+}
+
+body {
+    font-family: 'Inter';
+    background-color: #141414;
+    color: #FFFF;
+    height: 708px;
+    font-family: 'Inter';
+}
+
+
+img {
+    max-width: 50%;
+    width: 50%;
+    height: 18%;
+    background-color: #333333;
+    border-radius: 100%;
+}
+
+
+
+.main .text {
+    color: #c5F82A;
+    font-weight: bold;
+    margin-block: 1em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.main {
+    min-width: 250px;
+    max-width: 320px;
+    width: 90%;
+    background-color: #1F1F1F;
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+    margin: 100px auto;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 260px;
+    height: 35px;
+    border-radius: 8px;
+
+}
+
+button:hover {
+    background-color: #c5F82A;
+    color: #141414;
+    cursor: pointer;
+}
+
+.links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+} */
+
+/* .attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+/* 
+./assets/images/favicon-32x32.png
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="socials-card">
+    <img src="./assets/images/avatar.svg" alt="profile-picture">
+    <h1>Husam Mohamed</h1>
+    <p class="green-text">Atbarah, Sudan</p>
+    <p>"Full Stack Web Developer."</p>
+    <div class="social-links">
+      <a href="https://github.com/husamXA1">GitHub</a>
+      <a href="https://frontendmentor.io/profile/husamXA1">Frontend Mentor</a>
+      <a href="https://linkedin.com/in/husamXA1">LinkedIn</a>
+      <a href="https://wa.me/249117050461">WhatsApp</a>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Husam</a>.
+  </div>
+
+</body></html>
+
+*/
